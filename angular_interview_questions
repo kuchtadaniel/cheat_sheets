@@ -1,0 +1,32 @@
+Angular Interview Questions and Answers:
+
+What is Angular and how is it different from AngularJS?
+Angular is a platform for building web applications using TypeScript language. It is a completely rewritten version of AngularJS, which was based on JavaScript. Angular offers a lot of new features such as improved performance, better scalability, and easy integration with other technologies.
+
+What is a component in Angular and how is it created?
+A component is a building block of an Angular application that consists of a template, a class, and metadata. The template defines the HTML structure of the component, the class provides the behavior, and the metadata provides additional information about the component. A component can be created in Angular using the 'ng generate component' command or by manually creating the necessary files.
+
+How do you use directives in Angular and what are their types?
+Directives in Angular are used to add behavior to an existing HTML element or to create a new HTML element. There are three types of directives in Angular: Component directives, Attribute directives, and Structural directives. Component directives create a new HTML element, Attribute directives modify the behavior of an existing HTML element, and Structural directives modify the structure of the HTML element.
+
+Explain the concept of Dependency Injection in Angular.
+Dependency Injection is a design pattern used in Angular that allows the components to obtain the necessary dependencies from an external source instead of creating them internally. In other words, instead of a component creating its dependencies, the dependencies are passed to the component from an external source. This makes the code more modular, testable and easier to maintain.
+
+What is Angular Universal and why is it used?
+Angular Universal is a server-side rendering solution for Angular applications. It allows the application to be pre-rendered on the server before it is sent to the client. This can improve the performance of the application by reducing the time it takes to load the page.
+
+How do you handle errors in Angular applications?
+Angular provides an ErrorHandler class that can be used to handle errors in the application. The ErrorHandler class can be extended to create a custom error handler that can handle errors in a specific way. The error can be logged to the console or sent to a server for analysis.
+
+What is Change Detection in Angular and how does it work?
+Change Detection is a mechanism in Angular that detects changes in the data and updates the view accordingly. It works by comparing the current state of the data with its previous state and applying the necessary changes to the view. Change Detection can be optimized using techniques such as OnPush Change Detection and Immutable Data.
+
+What is a module in Angular and how is it used?
+A module in Angular is a container for a group of related components, services, and directives. It is used to organize the application into smaller, more manageable pieces. A module can be created using the 'ng generate module' command or by manually creating the necessary files.
+
+How do you implement lazy loading in Angular?
+Lazy loading is a technique used to load a module or component only when it is needed. In Angular, lazy loading can be implemented by using the loadChildren property in the route configuration. The loadChildren property should point to a module file that defines the lazy loaded module or component.
+
+What is the use of NgModule in Angular?
+NgModule is a decorator in Angular that is used to define a module. It is used to group related components, directives, and services together. NgModule can be used to import other modules, declare components, directives, and services, and export them for use in other modules.
+
